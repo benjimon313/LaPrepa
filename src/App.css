@@ -7,7 +7,7 @@
   font-family: 'Lato', sans-serif;
 }
 
-.inicio, .guia, .carreras {
+.inicio, .guia, .carrera {
   display: flex;
   height: 90vh;
   align-items: center;
