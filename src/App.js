@@ -2,11 +2,11 @@ import React from "react";
 
 import "./App.css";
 import Navbar from "./Components/Header/Navbar";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Inicio from './Components/PagesOpen/Inicio';
-import Guia from './Components/PagesOpen/Guia';
-import Carrera from './Components/PagesOpen/Carrera';
+import Inicio from "./Components/PagesOpen/Inicio";
+import Guia from "./Components/PagesOpen/Guia";
+import Carrera from "./Components/PagesOpen/Carrera";
 
 const App = () => {
   return (
@@ -14,13 +14,13 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component ={Inicio}/> 
-          <Route path='/guia' component ={Guia}/> 
-          <Route path='/carrera' component ={Carrera}/> 
+          <Route path="/" exact element={<Inicio/>} />
+          <Route path="/guia" element={<Guia/>} />
+          <Route path="/carrera" element={<Carrera/>} />
         </Routes>
       </Router>
     </>
   );
-}
+};
 
 export default App;
