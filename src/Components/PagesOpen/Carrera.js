@@ -1,9 +1,10 @@
 import React from 'react'
+import CarreraAccordion from './CarreraAccordion'
 
 const Carrera = () => {
   return (
-    <div className='carrera'>
-        <h1>Carrera</h1>
+    <div >
+        <CarreraAccordion/>
     </div>
   )
 }

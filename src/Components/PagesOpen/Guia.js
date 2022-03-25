@@ -1,9 +1,10 @@
 import React from 'react'
+import GuiaAccordion from './GuiaAccordion';
 
 const Guia = () => {
   return (
-    <div className='guia'>
-        <h1>Guía</h1>
+    <div >
+        <GuiaAccordion/>
     </div>
   )
 }
